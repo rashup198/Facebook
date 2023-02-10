@@ -7,22 +7,26 @@
     <link rel="stylesheet" href="style.css">
     <title>Facebook - log in or sign up</title>
 </head>
-<body>
-    <div class="container">
-        <div class="left">
-            <img src="main.svg" alt="">
-            <p>Facebook helps you connect and share with the people in your life.</p>
+<body class="bg-gray-100">
+    <div class="container mt-20 flex mx-auto items-center justify-center">
+        <div class="left w-1/3 mx-14 flex-wrap">
+            <img class="w-80 -mx-7" src="main.svg" alt="">
+            <p class="text-3xl flex-wrap">Facebook helps you connect and share with the people in your life.</p>
         </div>
-        <div class="right">
-            <input type="text" placeholder="Email address or phone number" >
-            <input type="password" placeholder="Password">
+        <div class="right flex flex-col bg-white w-96 h-80 px-4 py-3 rounded-lg shadow-slate-700 shadow-lg  relative">
+            <input class=" text-lg border-2 border-gray-300 rounded-lg px-4 h-12 my-2" type="text" placeholder="Email address or phone number" >
+            <input class=" border-2 text-lg border-gray-300 rounded-lg px-4 h-12 my-2" type="password" placeholder="Password">
 
-            <button class="btn">Log in</button>
-            <span>Forgotten password?</span>
+            <button class=" text-white text-xl font-bold my-2 bg-blue-500 h-12 rounded-lg hover:bg-blue-600">Log in</button>
+            <span class="text-center text-blue-500 hover:underline decoration-1">Forgotten password?</span>
+            <hr class="my-2">
 
-            <button class="btn-G">Create Account</button>
-
+            <button class=" mx-20 my-4 text-white text-base font-bold bg-green-500 h-12 w-48 rounded-lg font-inherit items-center hover:bg-green-600 text-center">Create new Account</button>
+            <p class="-bottom-12 absolute text-sm" > <span class="font-bold hover:underline decoration-1">Create a Page </span>for a celebrity, brand or business.</p>
+            
         </div>
+        
+
     </div>
     
 </body>
